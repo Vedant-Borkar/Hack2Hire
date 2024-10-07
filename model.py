@@ -5,7 +5,7 @@ model = SentenceTransformer('sentence-transformers/all-mpnet-base-v2')
 
 # Example: Your answer vs user's answer
 correct_answer = "The company should focus on customer retention strategies."
-user_answer = "The business should work on keeping current customers angry."
+user_answer = "The business should work on keeping current customers happy."
 
 # Convert sentences to embeddings
 correct_embedding = model.encode(correct_answer, convert_to_tensor=True)
